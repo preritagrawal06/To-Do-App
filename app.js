@@ -22,6 +22,7 @@ mongoose
     .connect(process.env.MONGO_PASS)
     .then(result=>{
         app.listen(4000);
+        console.log("connected");
     })
     .catch(err=>{
         console.log(err);
