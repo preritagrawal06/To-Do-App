@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.navbar span{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.navbar li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.task{
+    width: 50%;
+    margin: 20px;
+    padding: 15px;
+    background-color: yellowgreen;
+    color: azure;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 10px;
+}
+
+.task:hover{
+    box-shadow: 5px 5px 20px 3px yellowgreen;
+    cursor: pointer;
+}
+
+.task h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.task p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 800;
+}
+
+.todo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+
+}
+
+.form-control{
+    display: flex;
+    margin: 20px;
+}
+
+.form-control label{
+    margin: 5px;
+}
